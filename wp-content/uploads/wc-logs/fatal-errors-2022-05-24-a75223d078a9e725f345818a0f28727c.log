@@ -1,0 +1,127 @@
+2022-05-24T08:22:09+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php:1278
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php(1384): Custom_Image_Header->get_header_dimensions(Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): Custom_Image_Header->ajax_header_crop('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-admin\includes\class-custom-image-header.php on line 1278
+
+2022-05-24T12:46:06+00:00 CRITICAL Uncaught Error: Call to undefined function elegant_shop_get_fallback_svg() in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php:978
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\template-functions.php(446): elegant_shop_get_posts_list('latest')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): elegant_shop_latest_post('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\404.php(33): do_action('elegant_shop_la...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php on line 978
+
+2022-05-24T12:47:06+00:00 CRITICAL Uncaught Error: Call to undefined function elegant_shop_get_fallback_svg() in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php:978
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\template-functions.php(446): elegant_shop_get_posts_list('latest')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): elegant_shop_latest_post('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\404.php(33): do_action('elegant_shop_la...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php on line 978
+
+2022-05-24T12:48:44+00:00 CRITICAL Uncaught Error: Call to undefined function elegant_shop_get_fallback_svg() in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php:978
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\template-functions.php(446): elegant_shop_get_posts_list('latest')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): elegant_shop_latest_post('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\404.php(33): do_action('elegant_shop_la...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php on line 978
+
+2022-05-24T12:48:52+00:00 CRITICAL Uncaught Error: Call to undefined function elegant_shop_get_fallback_svg() in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php:978
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\template-functions.php(446): elegant_shop_get_posts_list('latest')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): elegant_shop_latest_post('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\404.php(33): do_action('elegant_shop_la...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php on line 978
+
+2022-05-24T12:48:54+00:00 CRITICAL Uncaught Error: Call to undefined function elegant_shop_get_fallback_svg() in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php:978
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\template-functions.php(446): elegant_shop_get_posts_list('latest')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): elegant_shop_latest_post('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\404.php(33): do_action('elegant_shop_la...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php on line 978
+
+2022-05-24T12:48:57+00:00 CRITICAL Uncaught Error: Call to undefined function elegant_shop_get_fallback_svg() in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php:978
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\template-functions.php(446): elegant_shop_get_posts_list('latest')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): elegant_shop_latest_post('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\404.php(33): do_action('elegant_shop_la...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php on line 978
+
+2022-05-24T13:00:03+00:00 CRITICAL Uncaught Error: Call to undefined function elegant_shop_get_fallback_svg() in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php:978
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\template-functions.php(446): elegant_shop_get_posts_list('latest')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): elegant_shop_latest_post('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\404.php(33): do_action('elegant_shop_la...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php on line 978
+
+2022-05-24T13:00:36+00:00 CRITICAL Uncaught Error: Call to undefined function elegant_shop_get_fallback_svg() in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php:978
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\template-functions.php(446): elegant_shop_get_posts_list('latest')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): elegant_shop_latest_post('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\404.php(33): do_action('elegant_shop_la...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php on line 978
+
+2022-05-24T13:04:49+00:00 CRITICAL Uncaught Error: Call to undefined function elegant_shop_get_fallback_svg() in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php:978
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\template-functions.php(446): elegant_shop_get_posts_list('latest')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): elegant_shop_latest_post('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\404.php(33): do_action('elegant_shop_la...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\elegant-shop\inc\extra-functions.php on line 978
+
